@@ -12,6 +12,7 @@
 		C2DE2A8B1DBCFDF300819719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DE2A891DBCFDF300819719 /* Main.storyboard */; };
 		C2DE2A8D1DBCFDF300819719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2DE2A8C1DBCFDF300819719 /* Assets.xcassets */; };
 		C2DE2A901DBCFDF300819719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DE2A8E1DBCFDF300819719 /* LaunchScreen.storyboard */; };
+		C2DE2A981DBD088800819719 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C2DE2A971DBD088800819719 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C2DE2A8C1DBCFDF300819719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2DE2A8F1DBCFDF300819719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2DE2A911DBCFDF300819719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DE2A971DBD088800819719 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		C2DE2A791DBCFDF300819719 = {
 			isa = PBXGroup;
 			children = (
+				C2DE2A971DBD088800819719 /* .gitignore */,
 				C2DE2A841DBCFDF300819719 /* Swift-Learning */,
 				C2DE2A831DBCFDF300819719 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2DE2A981DBD088800819719 /* .gitignore in Resources */,
 				C2DE2A901DBCFDF300819719 /* LaunchScreen.storyboard in Resources */,
 				C2DE2A8D1DBCFDF300819719 /* Assets.xcassets in Resources */,
 				C2DE2A8B1DBCFDF300819719 /* Main.storyboard in Resources */,
@@ -300,6 +304,7 @@
 				C2DE2A961DBCFDF300819719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
