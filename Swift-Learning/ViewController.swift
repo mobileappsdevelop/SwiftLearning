@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         print(incrementByTen())//20
         
         var directionToHead = Planet.earth
+        
+        print("weigt planer is \(getWeightPlanet(planet: Planet.earth)) ")
     }
 
     func makeIncrementer(forIncrement amount: Int) -> () -> Int {
