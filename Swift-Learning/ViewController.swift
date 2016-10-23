@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         return incrementer
     }
     
-    
+    //chlen ruslana
     func getWeightPlanet(_ planet: Planet, useSwitch: Bool) -> Double {
         if useSwitch {
             switch planet {
