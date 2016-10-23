@@ -18,7 +18,10 @@ class ViewController: UIViewController {
 //        print(incrementByTen())//10
 //        print(incrementByTen())//20
         
-        print("weigt planer is \(getWeightPlanet(planet: Planet.earth)) kg")
+      
+  
+        let weight = getWeightPlanet(Planet.earth, useSwitch: true)
+          print("weigt planer is \(weight) kg")
     }
 
     func makeIncrementer(forIncrement amount: Int) -> () -> Int {
@@ -31,15 +34,30 @@ class ViewController: UIViewController {
     }
     
     
-    func getWeightPlanet(planet: Planet) -> Double {
-        if planet == Planet.earth {
-            return  pow(5.972, 24)
-        } else if  planet == Planet.mars{
-            return  pow(6.39, 23)
-        } else if  planet == Planet.jupiter{
-            return  pow(1.898, 27)
+    func getWeightPlanet(_ planet: Planet, useSwitch: Bool) -> Double {
+        if useSwitch {
+            switch planet {
+            case Planet.earth:
+                return pow(5.972, 24)
+            case Planet.mars:
+                return pow(6.39, 23)
+            case Planet.jupiter:
+                return pow(1.898, 27)
+            default:
+                return 0
+            }
+        } else {
+            if planet == Planet.earth {
+                return  pow(5.972, 24)
+            } else if  planet == Planet.mars{
+                return  pow(6.39, 23)
+            } else if  planet == Planet.jupiter{
+                return  pow(1.898, 27)
+            } else {
+                return 0
+            }
         }
-        return 0
+        
     }
     
     enum Planet {

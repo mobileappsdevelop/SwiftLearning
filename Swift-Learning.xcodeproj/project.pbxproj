@@ -100,6 +100,7 @@
 					C2DE2A811DBCFDF300819719 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 4P8H7DCL46;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
