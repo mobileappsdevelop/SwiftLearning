@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 //        print(incrementByTen())//10
 //        print(incrementByTen())//20
         
-        print("weigt planer is \(getWeightPlanet(planet: Planet.earth)) лп")
+        print("weigt planer is \(getWeightPlanet(planet: Planet.earth)) kg")
     }
 
     func makeIncrementer(forIncrement amount: Int) -> () -> Int {
