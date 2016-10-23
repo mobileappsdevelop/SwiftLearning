@@ -14,13 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let incrementByTen = makeIncrementer(forIncrement: 10)
-        print(incrementByTen())//10
-        print(incrementByTen())//20
+//        let incrementByTen = makeIncrementer(forIncrement: 10)
+//        print(incrementByTen())//10
+//        print(incrementByTen())//20
         
-        var directionToHead = Planet.earth
-        
-        print("weigt planer is \(getWeightPlanet(planet: Planet.earth)) ")
+        print("weigt planer is \(getWeightPlanet(planet: Planet.earth)) лп")
     }
 
     func makeIncrementer(forIncrement amount: Int) -> () -> Int {
