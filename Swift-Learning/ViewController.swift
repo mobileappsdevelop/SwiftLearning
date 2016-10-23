@@ -15,8 +15,21 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //bibka-huipka
-    }
+        
+        var fact = factorial(number: 6)
+        print("6! = \(fact)")
 
+        
+    }
+    
+    func factorial(number: Int) -> (Int) {
+        if (number <= 1) {
+            return 1
+        }
+        
+        return number * factorial(number: number - 1)
+    }
+    
 
 }
 
